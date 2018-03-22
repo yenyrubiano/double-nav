@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*   
+Client: USSSA
+Author: MuiscaDesigns
+Author URL: muiscadesignssite.wordpress.com
+*/
+
+/*------------------------------------------------*/
+/* GLOBAL YR - TOP MENU
+/*------------------------------------------------*/
+.container-fluid {
+	padding: 0;
+}
+
+.navbar {
+	padding: 0 15px;
+	margin: 0;
+}
+
+.bg-light {
+	background: transparent url("img/bg-nav.png") no-repeat top left !important;
+}
+
+.toggler-txt {
+	font-size: 12px;
+	margin-right: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { 
+	color: #fff; 
+}
+
+.nav-link {
+	border-bottom: solid 2px #2b2c2d;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding: .75rem 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+	color: #fff; 
+}
+
+.navbar-light .navbar-nav .show>.nav-link, .nav-link:hover {
+	background: #eaeaea;
+	border-bottom: solid 2px #ca2128;
+	color: #444;
+}
+
+.navbar-nav {
+	font-family: "Abel", sans-serif;
+}
+
+.navbar-brand {
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+.navbar-brand img {
+	position: absolute;
+	top: -18px;
+}
+
+.dropdown-menu {
+	padding: .5rem;
+	border-radius: 0;
+}
+
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+
+.dropdown-menu li a {
+	padding: .5rem;
+}
+
+.multi-column-dropdown {
+	list-style: none;
+  	margin: 0px;
+  	padding: 0px;
+}
+
+.multi-column-dropdown li a {
+	color: #555;
+	font-size: 14px;
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	white-space: normal;
+}
+
+/*------------------------------------------------*/
+/* MEDIA QUERIES
+/*------------------------------------------------*/
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+@media (max-width: 991px)	{
+	
+	.collapse.show {
+		padding-top: 5px;
+	}
+
+	.navbar {
+		padding: 5px 15px;
+	}
+
+	.bg-light {
+		background: #eaeaea !important; ;
+	}
+
+	.navbar-brand img {
+		width: 150px;
+		position: relative;
+		top: 0;
+	}
+
+	.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link { 
+		color: #444; 
+	}
+
+	.nav-link {
+		border-bottom: none;
+	}
+
+	.navbar-light .navbar-nav .show>.nav-link, .nav-link:hover {
+		background: #dbdbdb;
+		border-bottom: none;
+		color: #444;
+	}
+
+}
