@@ -96,13 +96,6 @@ Author URL: muiscadesignssite.wordpress.com
 /*------------------------------------------------*/
 /* MEDIA QUERIES
 /*------------------------------------------------*/
-@media (max-width: 767px) {
-	.dropdown-menu.multi-column {
-		min-width: 240px !important;
-		overflow-x: hidden;
-	}
-}
-
 @media (max-width: 991px)	{
 	
 	.collapse.show {
@@ -137,4 +130,21 @@ Author URL: muiscadesignssite.wordpress.com
 		color: #444;
 	}
 
+}
+
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+@media (max-width: 340px) {
+	.navbar-brand img {
+		width: 100px;
+	}
+	.navbar-toggler-icon {
+		width: 1em;
+		height: 1em;
+	}
 }
